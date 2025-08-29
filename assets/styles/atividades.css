@@ -5,8 +5,21 @@
 }
 
 .quadrado {
-    width: 23%;
-    height: 170px;
-    background-color:rgb(96, 167, 233);
-    margin: 40px auto;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quadrado1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(76, 190, 110);
+}
+
+.quadrado2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(243, 151, 223);
 }
